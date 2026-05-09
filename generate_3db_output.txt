@@ -1126,3 +1126,86 @@ Batch   894 |    894,000 / 1,000,000 | 89.4% | 308 rows/s
 Batch   895 |    895,000 / 1,000,000 | 89.5% | 308 rows/s
 Batch   896 |    896,000 / 1,000,000 | 89.6% | 308 rows/s
 Batch   897 |    897,000 / 1,000,000 | 89.7% | 308 rows/s
+Batch   898 |    898,000 / 1,000,000 | 89.8% | 308 rows/s
+Batch   899 |    899,000 / 1,000,000 | 89.9% | 308 rows/s
+Batch   900 |    900,000 / 1,000,000 | 90.0% | 308 rows/s
+Verify batch 900
+Point lookup id: a9deb3de-a0f8-4806-879b-a8ed37cab7f5
+Trace lookup trace_id: tr-f131cf88305aca943f3052bab0c56ffe
+Free-text sample: Automated monitoring alerts were configured
+
+Batch   901 |    901,000 / 1,000,000 | 90.1% | 308 rows/s
+Batch   902 |    902,000 / 1,000,000 | 90.2% | 308 rows/s
+Batch   903 |    903,000 / 1,000,000 | 90.3% | 308 rows/s
+Batch   904 |    904,000 / 1,000,000 | 90.4% | 308 rows/s
+Batch   905 |    905,000 / 1,000,000 | 90.5% | 308 rows/s
+Batch   906 |    906,000 / 1,000,000 | 90.6% | 308 rows/s
+Batch   907 |    907,000 / 1,000,000 | 90.7% | 308 rows/s
+Batch   908 |    908,000 / 1,000,000 | 90.8% | 308 rows/s
+Batch   909 |    909,000 / 1,000,000 | 90.9% | 308 rows/s
+Batch   910 |    910,000 / 1,000,000 | 91.0% | 308 rows/s
+Batch   911 |    911,000 / 1,000,000 | 91.1% | 308 rows/s
+Batch   912 |    912,000 / 1,000,000 | 91.2% | 308 rows/s
+Batch   913 |    913,000 / 1,000,000 | 91.3% | 308 rows/s
+Batch   914 |    914,000 / 1,000,000 | 91.4% | 308 rows/s
+Batch   915 |    915,000 / 1,000,000 | 91.5% | 308 rows/s
+Batch   916 |    916,000 / 1,000,000 | 91.6% | 308 rows/s
+Batch   917 |    917,000 / 1,000,000 | 91.7% | 308 rows/s
+Batch   918 |    918,000 / 1,000,000 | 91.8% | 308 rows/s
+Batch   919 |    919,000 / 1,000,000 | 91.9% | 308 rows/s
+Batch   920 |    920,000 / 1,000,000 | 92.0% | 308 rows/s
+Verify batch 920
+Point lookup id: f3ddcd0b-3a08-44e5-bdc7-9c139c51b065
+Trace lookup trace_id: tr-ba18dd6a12ba0d543d2546ee828d6fdb
+Free-text sample: completed the migration to the
+
+Batch   921 |    921,000 / 1,000,000 | 92.1% | 308 rows/s
+Batch   922 |    922,000 / 1,000,000 | 92.2% | 308 rows/s
+Batch   923 |    923,000 / 1,000,000 | 92.3% | 308 rows/s
+Batch   924 |    924,000 / 1,000,000 | 92.4% | 308 rows/s
+Batch   925 |    925,000 / 1,000,000 | 92.5% | 308 rows/s
+Batch   926 |    926,000 / 1,000,000 | 92.6% | 308 rows/s
+Batch   927 |    927,000 / 1,000,000 | 92.7% | 308 rows/s
+Batch   928 |    928,000 / 1,000,000 | 92.8% | 308 rows/s
+Batch   929 |    929,000 / 1,000,000 | 92.9% | 308 rows/s
+Batch   930 |    930,000 / 1,000,000 | 93.0% | 307 rows/s
+Batch   931 |    931,000 / 1,000,000 | 93.1% | 307 rows/s
+Batch   932 |    932,000 / 1,000,000 | 93.2% | 307 rows/s
+Batch   933 |    933,000 / 1,000,000 | 93.3% | 307 rows/s
+Batch   934 |    934,000 / 1,000,000 | 93.4% | 307 rows/s
+Batch   935 |    935,000 / 1,000,000 | 93.5% | 307 rows/s
+Batch   936 |    936,000 / 1,000,000 | 93.6% | 307 rows/s
+Batch   937 |    937,000 / 1,000,000 | 93.7% | 307 rows/s
+Batch   938 |    938,000 / 1,000,000 | 93.8% | 307 rows/s
+Batch   939 |    939,000 / 1,000,000 | 93.9% | 307 rows/s
+Batch   940 |    940,000 / 1,000,000 | 94.0% | 307 rows/s
+Verify batch 940
+Point lookup id: 0f506cfa-c725-4c15-bfd3-7098dd3fbf4b
+Trace lookup trace_id: tr-1b806286c4c1dbb86e12f57ef32bbb09
+Free-text sample: for new team members was
+
+Batch   941 |    941,000 / 1,000,000 | 94.1% | 307 rows/s
+Batch   942 |    942,000 / 1,000,000 | 94.2% | 307 rows/s
+Batch   943 |    943,000 / 1,000,000 | 94.3% | 306 rows/s
+Batch   944 |    944,000 / 1,000,000 | 94.4% | 306 rows/s
+Batch   945 |    945,000 / 1,000,000 | 94.5% | 306 rows/s
+Batch   946 |    946,000 / 1,000,000 | 94.6% | 306 rows/s
+Batch   947 |    947,000 / 1,000,000 | 94.7% | 306 rows/s
+Batch   948 |    948,000 / 1,000,000 | 94.8% | 306 rows/s
+Batch   949 |    949,000 / 1,000,000 | 94.9% | 306 rows/s
+Batch   950 |    950,000 / 1,000,000 | 95.0% | 305 rows/s
+Batch   951 |    951,000 / 1,000,000 | 95.1% | 305 rows/s
+Batch   952 |    952,000 / 1,000,000 | 95.2% | 305 rows/s
+Batch   953 |    953,000 / 1,000,000 | 95.3% | 305 rows/s
+Batch   954 |    954,000 / 1,000,000 | 95.4% | 305 rows/s
+Batch   955 |    955,000 / 1,000,000 | 95.5% | 305 rows/s
+Batch   956 |    956,000 / 1,000,000 | 95.6% | 305 rows/s
+Batch   957 |    957,000 / 1,000,000 | 95.7% | 304 rows/s
+Batch   958 |    958,000 / 1,000,000 | 95.8% | 304 rows/s
+Batch   959 |    959,000 / 1,000,000 | 95.9% | 304 rows/s
+Batch   960 |    960,000 / 1,000,000 | 96.0% | 304 rows/s
+Verify batch 960
+Point lookup id: 4425a887-102a-41d9-9330-f6cf5aebc898
+Trace lookup trace_id: tr-c645016dcd35cd8ee0eac0ae9a990218
+Free-text sample: services from unexpected traffic spikes.
+
