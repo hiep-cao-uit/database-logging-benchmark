@@ -1,0 +1,1128 @@
+=== generate_3db output === 2026-05-09 17:04:20 ===
+Output file: /Users/henry/Documents/Codex/2026-05-08/import-clickhouse-connect-import-psycopg2-import/generate_3db_output.txt
+Đang kết nối 3 database...
+Kết nối thành công
+Đang dọn dẹp data cũ...
+ClickHouse done
+TimescaleDB done
+InfluxDB bucket 'DistributedLogging' đã xóa
+InfluxDB bucket 'DistributedLogging' đã tạo lại
+Đã dọn dẹp xong cả 3 DB
+Bắt đầu generate + insert 1,000,000 dòng
+Batch     1 |      1,000 / 1,000,000 | 0.1% | 444 rows/s
+Batch     2 |      2,000 / 1,000,000 | 0.2% | 438 rows/s
+Batch     3 |      3,000 / 1,000,000 | 0.3% | 436 rows/s
+Batch     4 |      4,000 / 1,000,000 | 0.4% | 436 rows/s
+Batch     5 |      5,000 / 1,000,000 | 0.5% | 437 rows/s
+Batch     6 |      6,000 / 1,000,000 | 0.6% | 438 rows/s
+Batch     7 |      7,000 / 1,000,000 | 0.7% | 437 rows/s
+Batch     8 |      8,000 / 1,000,000 | 0.8% | 438 rows/s
+Batch     9 |      9,000 / 1,000,000 | 0.9% | 438 rows/s
+Batch    10 |     10,000 / 1,000,000 | 1.0% | 438 rows/s
+Batch    11 |     11,000 / 1,000,000 | 1.1% | 437 rows/s
+Batch    12 |     12,000 / 1,000,000 | 1.2% | 436 rows/s
+Batch    13 |     13,000 / 1,000,000 | 1.3% | 434 rows/s
+Batch    14 |     14,000 / 1,000,000 | 1.4% | 430 rows/s
+Batch    15 |     15,000 / 1,000,000 | 1.5% | 430 rows/s
+Batch    16 |     16,000 / 1,000,000 | 1.6% | 430 rows/s
+Batch    17 |     17,000 / 1,000,000 | 1.7% | 430 rows/s
+Batch    18 |     18,000 / 1,000,000 | 1.8% | 430 rows/s
+Batch    19 |     19,000 / 1,000,000 | 1.9% | 431 rows/s
+Batch    20 |     20,000 / 1,000,000 | 2.0% | 431 rows/s
+Verify batch 20
+Point lookup id: 18f98dab-be02-442b-8644-8dba9c45adf1
+Trace lookup trace_id: tr-df9028fcb6b065e000ffe8a4f03eeb38
+Free-text sample: to reflect the latest architectural
+
+Batch    21 |     21,000 / 1,000,000 | 2.1% | 422 rows/s
+Batch    22 |     22,000 / 1,000,000 | 2.2% | 423 rows/s
+Batch    23 |     23,000 / 1,000,000 | 2.3% | 424 rows/s
+Batch    24 |     24,000 / 1,000,000 | 2.4% | 424 rows/s
+Batch    25 |     25,000 / 1,000,000 | 2.5% | 424 rows/s
+Batch    26 |     26,000 / 1,000,000 | 2.6% | 425 rows/s
+Batch    27 |     27,000 / 1,000,000 | 2.7% | 426 rows/s
+Batch    28 |     28,000 / 1,000,000 | 2.8% | 426 rows/s
+Batch    29 |     29,000 / 1,000,000 | 2.9% | 427 rows/s
+Batch    30 |     30,000 / 1,000,000 | 3.0% | 427 rows/s
+Batch    31 |     31,000 / 1,000,000 | 3.1% | 426 rows/s
+Batch    32 |     32,000 / 1,000,000 | 3.2% | 426 rows/s
+Batch    33 |     33,000 / 1,000,000 | 3.3% | 419 rows/s
+Batch    34 |     34,000 / 1,000,000 | 3.4% | 417 rows/s
+Batch    35 |     35,000 / 1,000,000 | 3.5% | 416 rows/s
+Batch    36 |     36,000 / 1,000,000 | 3.6% | 415 rows/s
+Batch    37 |     37,000 / 1,000,000 | 3.7% | 415 rows/s
+Batch    38 |     38,000 / 1,000,000 | 3.8% | 414 rows/s
+Batch    39 |     39,000 / 1,000,000 | 3.9% | 414 rows/s
+Batch    40 |     40,000 / 1,000,000 | 4.0% | 412 rows/s
+Verify batch 40
+Point lookup id: a0b5527e-1317-4f99-b90c-f3b175cd1ea2
+Trace lookup trace_id: tr-0ae1dd3954ee840075de1395771b6c9c
+Free-text sample: completed during the current period.
+
+Batch    41 |     41,000 / 1,000,000 | 4.1% | 408 rows/s
+Batch    42 |     42,000 / 1,000,000 | 4.2% | 409 rows/s
+Batch    43 |     43,000 / 1,000,000 | 4.3% | 408 rows/s
+Batch    44 |     44,000 / 1,000,000 | 4.4% | 409 rows/s
+Batch    45 |     45,000 / 1,000,000 | 4.5% | 409 rows/s
+Batch    46 |     46,000 / 1,000,000 | 4.6% | 408 rows/s
+Batch    47 |     47,000 / 1,000,000 | 4.7% | 407 rows/s
+Batch    48 |     48,000 / 1,000,000 | 4.8% | 408 rows/s
+Batch    49 |     49,000 / 1,000,000 | 4.9% | 408 rows/s
+Batch    50 |     50,000 / 1,000,000 | 5.0% | 409 rows/s
+Batch    51 |     51,000 / 1,000,000 | 5.1% | 409 rows/s
+Batch    52 |     52,000 / 1,000,000 | 5.2% | 409 rows/s
+Batch    53 |     53,000 / 1,000,000 | 5.3% | 410 rows/s
+Batch    54 |     54,000 / 1,000,000 | 5.4% | 410 rows/s
+Batch    55 |     55,000 / 1,000,000 | 5.5% | 411 rows/s
+Batch    56 |     56,000 / 1,000,000 | 5.6% | 411 rows/s
+Batch    57 |     57,000 / 1,000,000 | 5.7% | 411 rows/s
+Batch    58 |     58,000 / 1,000,000 | 5.8% | 412 rows/s
+Batch    59 |     59,000 / 1,000,000 | 5.9% | 412 rows/s
+Batch    60 |     60,000 / 1,000,000 | 6.0% | 413 rows/s
+Verify batch 60
+Point lookup id: a8524649-616f-4166-8201-5069de8c4d7a
+Trace lookup trace_id: tr-a18630ab1c3b9f14454cf70dc7114834
+Free-text sample: with minimal downtime. Performance monitoring
+
+Batch    61 |     61,000 / 1,000,000 | 6.1% | 411 rows/s
+Batch    62 |     62,000 / 1,000,000 | 6.2% | 411 rows/s
+Batch    63 |     63,000 / 1,000,000 | 6.3% | 412 rows/s
+Batch    64 |     64,000 / 1,000,000 | 6.4% | 412 rows/s
+Batch    65 |     65,000 / 1,000,000 | 6.5% | 413 rows/s
+Batch    66 |     66,000 / 1,000,000 | 6.6% | 413 rows/s
+Batch    67 |     67,000 / 1,000,000 | 6.7% | 413 rows/s
+Batch    68 |     68,000 / 1,000,000 | 6.8% | 413 rows/s
+Batch    69 |     69,000 / 1,000,000 | 6.9% | 412 rows/s
+Batch    70 |     70,000 / 1,000,000 | 7.0% | 412 rows/s
+Batch    71 |     71,000 / 1,000,000 | 7.1% | 412 rows/s
+Batch    72 |     72,000 / 1,000,000 | 7.2% | 411 rows/s
+Batch    73 |     73,000 / 1,000,000 | 7.3% | 409 rows/s
+Batch    74 |     74,000 / 1,000,000 | 7.4% | 409 rows/s
+Batch    75 |     75,000 / 1,000,000 | 7.5% | 408 rows/s
+Batch    76 |     76,000 / 1,000,000 | 7.6% | 409 rows/s
+Batch    77 |     77,000 / 1,000,000 | 7.7% | 409 rows/s
+Batch    78 |     78,000 / 1,000,000 | 7.8% | 409 rows/s
+Batch    79 |     79,000 / 1,000,000 | 7.9% | 409 rows/s
+Batch    80 |     80,000 / 1,000,000 | 8.0% | 410 rows/s
+Verify batch 80
+Point lookup id: 3110f477-aad0-48f9-ad7b-3f7bdaaa5f98
+Trace lookup trace_id: tr-d1e96978c6935ec01d995b1b8e4d8c33
+Free-text sample: through cross-functional collaboration. The infrastructure
+
+Batch    81 |     81,000 / 1,000,000 | 8.1% | 408 rows/s
+Batch    82 |     82,000 / 1,000,000 | 8.2% | 408 rows/s
+Batch    83 |     83,000 / 1,000,000 | 8.3% | 408 rows/s
+Batch    84 |     84,000 / 1,000,000 | 8.4% | 409 rows/s
+Batch    85 |     85,000 / 1,000,000 | 8.5% | 409 rows/s
+Batch    86 |     86,000 / 1,000,000 | 8.6% | 409 rows/s
+Batch    87 |     87,000 / 1,000,000 | 8.7% | 409 rows/s
+Batch    88 |     88,000 / 1,000,000 | 8.8% | 409 rows/s
+Batch    89 |     89,000 / 1,000,000 | 8.9% | 410 rows/s
+Batch    90 |     90,000 / 1,000,000 | 9.0% | 410 rows/s
+Batch    91 |     91,000 / 1,000,000 | 9.1% | 409 rows/s
+Batch    92 |     92,000 / 1,000,000 | 9.2% | 409 rows/s
+Batch    93 |     93,000 / 1,000,000 | 9.3% | 409 rows/s
+Batch    94 |     94,000 / 1,000,000 | 9.4% | 409 rows/s
+Batch    95 |     95,000 / 1,000,000 | 9.5% | 409 rows/s
+Batch    96 |     96,000 / 1,000,000 | 9.6% | 409 rows/s
+Batch    97 |     97,000 / 1,000,000 | 9.7% | 409 rows/s
+Batch    98 |     98,000 / 1,000,000 | 9.8% | 410 rows/s
+Batch    99 |     99,000 / 1,000,000 | 9.9% | 410 rows/s
+Batch   100 |    100,000 / 1,000,000 | 10.0% | 410 rows/s
+Verify batch 100
+Point lookup id: 03ec5498-d76f-4e2e-86bd-e1ecbfb43af8
+Trace lookup trace_id: tr-c3daba8ba04565423e12eb8cb6237b46
+Free-text sample: in query execution time. API
+
+Batch   101 |    101,000 / 1,000,000 | 10.1% | 409 rows/s
+Batch   102 |    102,000 / 1,000,000 | 10.2% | 409 rows/s
+Batch   103 |    103,000 / 1,000,000 | 10.3% | 409 rows/s
+Batch   104 |    104,000 / 1,000,000 | 10.4% | 409 rows/s
+Batch   105 |    105,000 / 1,000,000 | 10.5% | 410 rows/s
+Batch   106 |    106,000 / 1,000,000 | 10.6% | 410 rows/s
+Batch   107 |    107,000 / 1,000,000 | 10.7% | 410 rows/s
+Batch   108 |    108,000 / 1,000,000 | 10.8% | 410 rows/s
+Batch   109 |    109,000 / 1,000,000 | 10.9% | 411 rows/s
+Batch   110 |    110,000 / 1,000,000 | 11.0% | 411 rows/s
+Batch   111 |    111,000 / 1,000,000 | 11.1% | 411 rows/s
+Batch   112 |    112,000 / 1,000,000 | 11.2% | 411 rows/s
+Batch   113 |    113,000 / 1,000,000 | 11.3% | 411 rows/s
+Batch   114 |    114,000 / 1,000,000 | 11.4% | 410 rows/s
+Batch   115 |    115,000 / 1,000,000 | 11.5% | 411 rows/s
+Batch   116 |    116,000 / 1,000,000 | 11.6% | 411 rows/s
+Batch   117 |    117,000 / 1,000,000 | 11.7% | 411 rows/s
+Batch   118 |    118,000 / 1,000,000 | 11.8% | 411 rows/s
+Batch   119 |    119,000 / 1,000,000 | 11.9% | 411 rows/s
+Batch   120 |    120,000 / 1,000,000 | 12.0% | 411 rows/s
+Verify batch 120
+Point lookup id: 40246c21-74fa-40c4-a3fd-4bb6a632b355
+Trace lookup trace_id: tr-e0f9db367e8733c2938c6cd1a86eef56
+Free-text sample: downtime. Performance monitoring revealed significant
+
+Batch   121 |    121,000 / 1,000,000 | 12.1% | 410 rows/s
+Batch   122 |    122,000 / 1,000,000 | 12.2% | 410 rows/s
+Batch   123 |    123,000 / 1,000,000 | 12.3% | 410 rows/s
+Batch   124 |    124,000 / 1,000,000 | 12.4% | 410 rows/s
+Batch   125 |    125,000 / 1,000,000 | 12.5% | 411 rows/s
+Batch   126 |    126,000 / 1,000,000 | 12.6% | 411 rows/s
+Batch   127 |    127,000 / 1,000,000 | 12.7% | 411 rows/s
+Batch   128 |    128,000 / 1,000,000 | 12.8% | 411 rows/s
+Batch   129 |    129,000 / 1,000,000 | 12.9% | 411 rows/s
+Batch   130 |    130,000 / 1,000,000 | 13.0% | 411 rows/s
+Batch   131 |    131,000 / 1,000,000 | 13.1% | 411 rows/s
+Batch   132 |    132,000 / 1,000,000 | 13.2% | 411 rows/s
+Batch   133 |    133,000 / 1,000,000 | 13.3% | 411 rows/s
+Batch   134 |    134,000 / 1,000,000 | 13.4% | 411 rows/s
+Batch   135 |    135,000 / 1,000,000 | 13.5% | 411 rows/s
+Batch   136 |    136,000 / 1,000,000 | 13.6% | 411 rows/s
+Batch   137 |    137,000 / 1,000,000 | 13.7% | 411 rows/s
+Batch   138 |    138,000 / 1,000,000 | 13.8% | 411 rows/s
+Batch   139 |    139,000 / 1,000,000 | 13.9% | 411 rows/s
+Batch   140 |    140,000 / 1,000,000 | 14.0% | 411 rows/s
+Verify batch 140
+Point lookup id: eb2b8463-0962-4b7a-ae6d-a5584043f8a4
+Trace lookup trace_id: tr-c19cfde3e601c7453e5df6f61447ab9a
+Free-text sample: environment with minimal downtime. Performance
+
+Batch   141 |    141,000 / 1,000,000 | 14.1% | 410 rows/s
+Batch   142 |    142,000 / 1,000,000 | 14.2% | 410 rows/s
+Batch   143 |    143,000 / 1,000,000 | 14.3% | 410 rows/s
+Batch   144 |    144,000 / 1,000,000 | 14.4% | 410 rows/s
+Batch   145 |    145,000 / 1,000,000 | 14.5% | 410 rows/s
+Batch   146 |    146,000 / 1,000,000 | 14.6% | 410 rows/s
+Batch   147 |    147,000 / 1,000,000 | 14.7% | 409 rows/s
+Batch   148 |    148,000 / 1,000,000 | 14.8% | 409 rows/s
+Batch   149 |    149,000 / 1,000,000 | 14.9% | 409 rows/s
+Batch   150 |    150,000 / 1,000,000 | 15.0% | 409 rows/s
+Batch   151 |    151,000 / 1,000,000 | 15.1% | 409 rows/s
+Batch   152 |    152,000 / 1,000,000 | 15.2% | 409 rows/s
+Batch   153 |    153,000 / 1,000,000 | 15.3% | 409 rows/s
+Batch   154 |    154,000 / 1,000,000 | 15.4% | 409 rows/s
+Batch   155 |    155,000 / 1,000,000 | 15.5% | 409 rows/s
+Batch   156 |    156,000 / 1,000,000 | 15.6% | 409 rows/s
+Batch   157 |    157,000 / 1,000,000 | 15.7% | 409 rows/s
+Batch   158 |    158,000 / 1,000,000 | 15.8% | 409 rows/s
+Batch   159 |    159,000 / 1,000,000 | 15.9% | 408 rows/s
+Batch   160 |    160,000 / 1,000,000 | 16.0% | 408 rows/s
+Verify batch 160
+Point lookup id: e391d183-42f1-4a64-87c6-29404af4f430
+Trace lookup trace_id: tr-cd4e9ea43d04220d6f90db0e66758a51
+Free-text sample: unexpected traffic spikes. The onboarding
+
+Batch   161 |    161,000 / 1,000,000 | 16.1% | 408 rows/s
+Batch   162 |    162,000 / 1,000,000 | 16.2% | 408 rows/s
+Batch   163 |    163,000 / 1,000,000 | 16.3% | 408 rows/s
+Batch   164 |    164,000 / 1,000,000 | 16.4% | 408 rows/s
+Batch   165 |    165,000 / 1,000,000 | 16.5% | 408 rows/s
+Batch   166 |    166,000 / 1,000,000 | 16.6% | 408 rows/s
+Batch   167 |    167,000 / 1,000,000 | 16.7% | 408 rows/s
+Batch   168 |    168,000 / 1,000,000 | 16.8% | 408 rows/s
+Batch   169 |    169,000 / 1,000,000 | 16.9% | 408 rows/s
+Batch   170 |    170,000 / 1,000,000 | 17.0% | 408 rows/s
+Batch   171 |    171,000 / 1,000,000 | 17.1% | 408 rows/s
+Batch   172 |    172,000 / 1,000,000 | 17.2% | 408 rows/s
+Batch   173 |    173,000 / 1,000,000 | 17.3% | 408 rows/s
+Batch   174 |    174,000 / 1,000,000 | 17.4% | 409 rows/s
+Batch   175 |    175,000 / 1,000,000 | 17.5% | 409 rows/s
+Batch   176 |    176,000 / 1,000,000 | 17.6% | 409 rows/s
+Batch   177 |    177,000 / 1,000,000 | 17.7% | 409 rows/s
+Batch   178 |    178,000 / 1,000,000 | 17.8% | 409 rows/s
+Batch   179 |    179,000 / 1,000,000 | 17.9% | 409 rows/s
+Batch   180 |    180,000 / 1,000,000 | 18.0% | 409 rows/s
+Verify batch 180
+Point lookup id: 591df7a8-6daf-40b7-890e-6de4054628d1
+Trace lookup trace_id: tr-8671e7b4d35f3d498f22e225dbe70bd9
+Free-text sample: implemented to protect backend services
+
+Batch   181 |    181,000 / 1,000,000 | 18.1% | 409 rows/s
+Batch   182 |    182,000 / 1,000,000 | 18.2% | 409 rows/s
+Batch   183 |    183,000 / 1,000,000 | 18.3% | 409 rows/s
+Batch   184 |    184,000 / 1,000,000 | 18.4% | 409 rows/s
+Batch   185 |    185,000 / 1,000,000 | 18.5% | 409 rows/s
+Batch   186 |    186,000 / 1,000,000 | 18.6% | 409 rows/s
+Batch   187 |    187,000 / 1,000,000 | 18.7% | 409 rows/s
+Batch   188 |    188,000 / 1,000,000 | 18.8% | 409 rows/s
+Batch   189 |    189,000 / 1,000,000 | 18.9% | 409 rows/s
+Batch   190 |    190,000 / 1,000,000 | 19.0% | 408 rows/s
+Batch   191 |    191,000 / 1,000,000 | 19.1% | 408 rows/s
+Batch   192 |    192,000 / 1,000,000 | 19.2% | 408 rows/s
+Batch   193 |    193,000 / 1,000,000 | 19.3% | 408 rows/s
+Batch   194 |    194,000 / 1,000,000 | 19.4% | 408 rows/s
+Batch   195 |    195,000 / 1,000,000 | 19.5% | 408 rows/s
+Batch   196 |    196,000 / 1,000,000 | 19.6% | 407 rows/s
+Batch   197 |    197,000 / 1,000,000 | 19.7% | 407 rows/s
+Batch   198 |    198,000 / 1,000,000 | 19.8% | 407 rows/s
+Batch   199 |    199,000 / 1,000,000 | 19.9% | 407 rows/s
+Batch   200 |    200,000 / 1,000,000 | 20.0% | 407 rows/s
+Verify batch 200
+Point lookup id: 7d913b7c-d2af-4864-bb1b-b7f1d238698c
+Trace lookup trace_id: tr-df667161a3ae432b669e7879e676a70b
+Free-text sample: of ac355a4 1c6a3d fef990 c0d2
+
+Batch   201 |    201,000 / 1,000,000 | 20.1% | 406 rows/s
+Batch   202 |    202,000 / 1,000,000 | 20.2% | 406 rows/s
+Batch   203 |    203,000 / 1,000,000 | 20.3% | 406 rows/s
+Batch   204 |    204,000 / 1,000,000 | 20.4% | 406 rows/s
+Batch   205 |    205,000 / 1,000,000 | 20.5% | 406 rows/s
+Batch   206 |    206,000 / 1,000,000 | 20.6% | 406 rows/s
+Batch   207 |    207,000 / 1,000,000 | 20.7% | 406 rows/s
+Batch   208 |    208,000 / 1,000,000 | 20.8% | 406 rows/s
+Batch   209 |    209,000 / 1,000,000 | 20.9% | 406 rows/s
+Batch   210 |    210,000 / 1,000,000 | 21.0% | 406 rows/s
+Batch   211 |    211,000 / 1,000,000 | 21.1% | 406 rows/s
+Batch   212 |    212,000 / 1,000,000 | 21.2% | 406 rows/s
+Batch   213 |    213,000 / 1,000,000 | 21.3% | 406 rows/s
+Batch   214 |    214,000 / 1,000,000 | 21.4% | 406 rows/s
+Batch   215 |    215,000 / 1,000,000 | 21.5% | 406 rows/s
+Batch   216 |    216,000 / 1,000,000 | 21.6% | 406 rows/s
+Batch   217 |    217,000 / 1,000,000 | 21.7% | 406 rows/s
+Batch   218 |    218,000 / 1,000,000 | 21.8% | 406 rows/s
+Batch   219 |    219,000 / 1,000,000 | 21.9% | 406 rows/s
+Batch   220 |    220,000 / 1,000,000 | 22.0% | 406 rows/s
+Verify batch 220
+Point lookup id: dabbbe59-d6f9-4dcd-aa75-4e21053d5262
+Trace lookup trace_id: tr-0c4c93af131c294eb21bd79fd3c8b8f3
+Free-text sample: schedule. Stakeholder feedback was incorporated
+
+Batch   221 |    221,000 / 1,000,000 | 22.1% | 405 rows/s
+Batch   222 |    222,000 / 1,000,000 | 22.2% | 405 rows/s
+Batch   223 |    223,000 / 1,000,000 | 22.3% | 405 rows/s
+Batch   224 |    224,000 / 1,000,000 | 22.4% | 405 rows/s
+Batch   225 |    225,000 / 1,000,000 | 22.5% | 405 rows/s
+Batch   226 |    226,000 / 1,000,000 | 22.6% | 405 rows/s
+Batch   227 |    227,000 / 1,000,000 | 22.7% | 404 rows/s
+Batch   228 |    228,000 / 1,000,000 | 22.8% | 404 rows/s
+Batch   229 |    229,000 / 1,000,000 | 22.9% | 404 rows/s
+Batch   230 |    230,000 / 1,000,000 | 23.0% | 404 rows/s
+Batch   231 |    231,000 / 1,000,000 | 23.1% | 404 rows/s
+Batch   232 |    232,000 / 1,000,000 | 23.2% | 404 rows/s
+Batch   233 |    233,000 / 1,000,000 | 23.3% | 404 rows/s
+Batch   234 |    234,000 / 1,000,000 | 23.4% | 404 rows/s
+Batch   235 |    235,000 / 1,000,000 | 23.5% | 404 rows/s
+Batch   236 |    236,000 / 1,000,000 | 23.6% | 404 rows/s
+Batch   237 |    237,000 / 1,000,000 | 23.7% | 404 rows/s
+Batch   238 |    238,000 / 1,000,000 | 23.8% | 404 rows/s
+Batch   239 |    239,000 / 1,000,000 | 23.9% | 404 rows/s
+Batch   240 |    240,000 / 1,000,000 | 24.0% | 403 rows/s
+Verify batch 240
+Point lookup id: cdfaad85-a097-4dad-bccf-deacff6ce608
+Trace lookup trace_id: tr-b64eccfaa3c560d142a15ca43a0ddc98
+Free-text sample: downtime. Performance monitoring revealed significant
+
+Batch   241 |    241,000 / 1,000,000 | 24.1% | 402 rows/s
+Batch   242 |    242,000 / 1,000,000 | 24.2% | 402 rows/s
+Batch   243 |    243,000 / 1,000,000 | 24.3% | 402 rows/s
+Batch   244 |    244,000 / 1,000,000 | 24.4% | 402 rows/s
+Batch   245 |    245,000 / 1,000,000 | 24.5% | 401 rows/s
+Batch   246 |    246,000 / 1,000,000 | 24.6% | 401 rows/s
+Batch   247 |    247,000 / 1,000,000 | 24.7% | 401 rows/s
+Batch   248 |    248,000 / 1,000,000 | 24.8% | 401 rows/s
+Batch   249 |    249,000 / 1,000,000 | 24.9% | 401 rows/s
+Batch   250 |    250,000 / 1,000,000 | 25.0% | 401 rows/s
+Batch   251 |    251,000 / 1,000,000 | 25.1% | 400 rows/s
+Batch   252 |    252,000 / 1,000,000 | 25.2% | 400 rows/s
+Batch   253 |    253,000 / 1,000,000 | 25.3% | 400 rows/s
+Batch   254 |    254,000 / 1,000,000 | 25.4% | 400 rows/s
+Batch   255 |    255,000 / 1,000,000 | 25.5% | 400 rows/s
+Batch   256 |    256,000 / 1,000,000 | 25.6% | 400 rows/s
+Batch   257 |    257,000 / 1,000,000 | 25.7% | 400 rows/s
+Batch   258 |    258,000 / 1,000,000 | 25.8% | 400 rows/s
+Batch   259 |    259,000 / 1,000,000 | 25.9% | 400 rows/s
+Batch   260 |    260,000 / 1,000,000 | 26.0% | 400 rows/s
+Verify batch 260
+Point lookup id: 4ed49925-21fe-4370-8b88-e76326b7767e
+Trace lookup trace_id: tr-80bd1978a3dff0dbaceb95fb9191e7ee
+Free-text sample: schedule. Stakeholder feedback was incorporated
+
+Batch   261 |    261,000 / 1,000,000 | 26.1% | 399 rows/s
+Batch   262 |    262,000 / 1,000,000 | 26.2% | 399 rows/s
+Batch   263 |    263,000 / 1,000,000 | 26.3% | 398 rows/s
+Batch   264 |    264,000 / 1,000,000 | 26.4% | 397 rows/s
+Batch   265 |    265,000 / 1,000,000 | 26.5% | 396 rows/s
+Batch   266 |    266,000 / 1,000,000 | 26.6% | 396 rows/s
+Batch   267 |    267,000 / 1,000,000 | 26.7% | 396 rows/s
+Batch   268 |    268,000 / 1,000,000 | 26.8% | 395 rows/s
+Batch   269 |    269,000 / 1,000,000 | 26.9% | 395 rows/s
+Batch   270 |    270,000 / 1,000,000 | 27.0% | 394 rows/s
+Batch   271 |    271,000 / 1,000,000 | 27.1% | 394 rows/s
+Batch   272 |    272,000 / 1,000,000 | 27.2% | 393 rows/s
+Batch   273 |    273,000 / 1,000,000 | 27.3% | 393 rows/s
+Batch   274 |    274,000 / 1,000,000 | 27.4% | 393 rows/s
+Batch   275 |    275,000 / 1,000,000 | 27.5% | 393 rows/s
+Batch   276 |    276,000 / 1,000,000 | 27.6% | 392 rows/s
+Batch   277 |    277,000 / 1,000,000 | 27.7% | 392 rows/s
+Batch   278 |    278,000 / 1,000,000 | 27.8% | 391 rows/s
+Batch   279 |    279,000 / 1,000,000 | 27.9% | 391 rows/s
+Batch   280 |    280,000 / 1,000,000 | 28.0% | 391 rows/s
+Verify batch 280
+Point lookup id: b7be78f9-f232-4297-9c31-e523f1b92f13
+Trace lookup trace_id: tr-d644c7cbbb1064491c3b1334c99b25c8
+Free-text sample: identified vulnerabilities ae80c56 ce45e5 08c2df
+
+Batch   281 |    281,000 / 1,000,000 | 28.1% | 389 rows/s
+Batch   282 |    282,000 / 1,000,000 | 28.2% | 388 rows/s
+Batch   283 |    283,000 / 1,000,000 | 28.3% | 388 rows/s
+Batch   284 |    284,000 / 1,000,000 | 28.4% | 388 rows/s
+Batch   285 |    285,000 / 1,000,000 | 28.5% | 388 rows/s
+Batch   286 |    286,000 / 1,000,000 | 28.6% | 388 rows/s
+Batch   287 |    287,000 / 1,000,000 | 28.7% | 387 rows/s
+Batch   288 |    288,000 / 1,000,000 | 28.8% | 387 rows/s
+Batch   289 |    289,000 / 1,000,000 | 28.9% | 387 rows/s
+Batch   290 |    290,000 / 1,000,000 | 29.0% | 387 rows/s
+Batch   291 |    291,000 / 1,000,000 | 29.1% | 386 rows/s
+Batch   292 |    292,000 / 1,000,000 | 29.2% | 386 rows/s
+Batch   293 |    293,000 / 1,000,000 | 29.3% | 386 rows/s
+Batch   294 |    294,000 / 1,000,000 | 29.4% | 386 rows/s
+Batch   295 |    295,000 / 1,000,000 | 29.5% | 386 rows/s
+Batch   296 |    296,000 / 1,000,000 | 29.6% | 386 rows/s
+Batch   297 |    297,000 / 1,000,000 | 29.7% | 386 rows/s
+Batch   298 |    298,000 / 1,000,000 | 29.8% | 385 rows/s
+Batch   299 |    299,000 / 1,000,000 | 29.9% | 384 rows/s
+Batch   300 |    300,000 / 1,000,000 | 30.0% | 384 rows/s
+Verify batch 300
+Point lookup id: 17c9766b-7773-406a-9851-78882a601d07
+Trace lookup trace_id: tr-a3e71b95b4e8a94b6feb30571a6797d7
+Free-text sample: with minimal downtime. 963a858 429630
+
+Batch   301 |    301,000 / 1,000,000 | 30.1% | 381 rows/s
+Batch   302 |    302,000 / 1,000,000 | 30.2% | 380 rows/s
+Batch   303 |    303,000 / 1,000,000 | 30.3% | 380 rows/s
+Batch   304 |    304,000 / 1,000,000 | 30.4% | 379 rows/s
+Batch   305 |    305,000 / 1,000,000 | 30.5% | 379 rows/s
+Batch   306 |    306,000 / 1,000,000 | 30.6% | 379 rows/s
+Batch   307 |    307,000 / 1,000,000 | 30.7% | 379 rows/s
+Batch   308 |    308,000 / 1,000,000 | 30.8% | 378 rows/s
+Batch   309 |    309,000 / 1,000,000 | 30.9% | 378 rows/s
+Batch   310 |    310,000 / 1,000,000 | 31.0% | 378 rows/s
+Batch   311 |    311,000 / 1,000,000 | 31.1% | 378 rows/s
+Batch   312 |    312,000 / 1,000,000 | 31.2% | 377 rows/s
+Batch   313 |    313,000 / 1,000,000 | 31.3% | 377 rows/s
+Batch   314 |    314,000 / 1,000,000 | 31.4% | 377 rows/s
+Batch   315 |    315,000 / 1,000,000 | 31.5% | 376 rows/s
+Batch   316 |    316,000 / 1,000,000 | 31.6% | 376 rows/s
+Batch   317 |    317,000 / 1,000,000 | 31.7% | 376 rows/s
+Batch   318 |    318,000 / 1,000,000 | 31.8% | 376 rows/s
+Batch   319 |    319,000 / 1,000,000 | 31.9% | 376 rows/s
+Batch   320 |    320,000 / 1,000,000 | 32.0% | 376 rows/s
+Verify batch 320
+Point lookup id: 9222e411-a13a-4647-866c-54740f8fdee0
+Trace lookup trace_id: tr-16eeeb491080ff779eefceb3565812db
+Free-text sample: The infrastructure be758a1 e4a0e7 a75fea
+
+Batch   321 |    321,000 / 1,000,000 | 32.1% | 375 rows/s
+Batch   322 |    322,000 / 1,000,000 | 32.2% | 375 rows/s
+Batch   323 |    323,000 / 1,000,000 | 32.3% | 375 rows/s
+Batch   324 |    324,000 / 1,000,000 | 32.4% | 374 rows/s
+Batch   325 |    325,000 / 1,000,000 | 32.5% | 374 rows/s
+Batch   326 |    326,000 / 1,000,000 | 32.6% | 374 rows/s
+Batch   327 |    327,000 / 1,000,000 | 32.7% | 373 rows/s
+Batch   328 |    328,000 / 1,000,000 | 32.8% | 373 rows/s
+Batch   329 |    329,000 / 1,000,000 | 32.9% | 373 rows/s
+Batch   330 |    330,000 / 1,000,000 | 33.0% | 373 rows/s
+Batch   331 |    331,000 / 1,000,000 | 33.1% | 373 rows/s
+Batch   332 |    332,000 / 1,000,000 | 33.2% | 373 rows/s
+Batch   333 |    333,000 / 1,000,000 | 33.3% | 373 rows/s
+Batch   334 |    334,000 / 1,000,000 | 33.4% | 373 rows/s
+Batch   335 |    335,000 / 1,000,000 | 33.5% | 372 rows/s
+Batch   336 |    336,000 / 1,000,000 | 33.6% | 372 rows/s
+Batch   337 |    337,000 / 1,000,000 | 33.7% | 372 rows/s
+Batch   338 |    338,000 / 1,000,000 | 33.8% | 372 rows/s
+Batch   339 |    339,000 / 1,000,000 | 33.9% | 372 rows/s
+Batch   340 |    340,000 / 1,000,000 | 34.0% | 372 rows/s
+Verify batch 340
+Point lookup id: 4c42fd24-159e-4640-b4cc-5fac89f8b948
+Trace lookup trace_id: tr-3ec598af99b9d4aaebf70720aac3b5d4
+Free-text sample: and deployment procedures. The database
+
+Batch   341 |    341,000 / 1,000,000 | 34.1% | 370 rows/s
+Batch   342 |    342,000 / 1,000,000 | 34.2% | 370 rows/s
+Batch   343 |    343,000 / 1,000,000 | 34.3% | 370 rows/s
+Batch   344 |    344,000 / 1,000,000 | 34.4% | 369 rows/s
+Batch   345 |    345,000 / 1,000,000 | 34.5% | 369 rows/s
+Batch   346 |    346,000 / 1,000,000 | 34.6% | 369 rows/s
+Batch   347 |    347,000 / 1,000,000 | 34.7% | 369 rows/s
+Batch   348 |    348,000 / 1,000,000 | 34.8% | 369 rows/s
+Batch   349 |    349,000 / 1,000,000 | 34.9% | 369 rows/s
+Batch   350 |    350,000 / 1,000,000 | 35.0% | 369 rows/s
+Batch   351 |    351,000 / 1,000,000 | 35.1% | 369 rows/s
+Batch   352 |    352,000 / 1,000,000 | 35.2% | 369 rows/s
+Batch   353 |    353,000 / 1,000,000 | 35.3% | 369 rows/s
+Batch   354 |    354,000 / 1,000,000 | 35.4% | 369 rows/s
+Batch   355 |    355,000 / 1,000,000 | 35.5% | 369 rows/s
+Batch   356 |    356,000 / 1,000,000 | 35.6% | 368 rows/s
+Batch   357 |    357,000 / 1,000,000 | 35.7% | 368 rows/s
+Batch   358 |    358,000 / 1,000,000 | 35.8% | 368 rows/s
+Batch   359 |    359,000 / 1,000,000 | 35.9% | 368 rows/s
+Batch   360 |    360,000 / 1,000,000 | 36.0% | 368 rows/s
+Verify batch 360
+Point lookup id: 1cad004e-4908-4d17-b4ba-97448591df20
+Trace lookup trace_id: tr-40d8bca82978d40267c607afedab4b78
+Free-text sample: timeline and quality benchmarks set
+
+Batch   361 |    361,000 / 1,000,000 | 36.1% | 368 rows/s
+Batch   362 |    362,000 / 1,000,000 | 36.2% | 368 rows/s
+Batch   363 |    363,000 / 1,000,000 | 36.3% | 367 rows/s
+Batch   364 |    364,000 / 1,000,000 | 36.4% | 367 rows/s
+Batch   365 |    365,000 / 1,000,000 | 36.5% | 367 rows/s
+Batch   366 |    366,000 / 1,000,000 | 36.6% | 366 rows/s
+Batch   367 |    367,000 / 1,000,000 | 36.7% | 366 rows/s
+Batch   368 |    368,000 / 1,000,000 | 36.8% | 366 rows/s
+Batch   369 |    369,000 / 1,000,000 | 36.9% | 365 rows/s
+Batch   370 |    370,000 / 1,000,000 | 37.0% | 364 rows/s
+Batch   371 |    371,000 / 1,000,000 | 37.1% | 364 rows/s
+Batch   372 |    372,000 / 1,000,000 | 37.2% | 364 rows/s
+Batch   373 |    373,000 / 1,000,000 | 37.3% | 363 rows/s
+Batch   374 |    374,000 / 1,000,000 | 37.4% | 362 rows/s
+Batch   375 |    375,000 / 1,000,000 | 37.5% | 362 rows/s
+Batch   376 |    376,000 / 1,000,000 | 37.6% | 361 rows/s
+Batch   377 |    377,000 / 1,000,000 | 37.7% | 361 rows/s
+Batch   378 |    378,000 / 1,000,000 | 37.8% | 360 rows/s
+Batch   379 |    379,000 / 1,000,000 | 37.9% | 360 rows/s
+Batch   380 |    380,000 / 1,000,000 | 38.0% | 359 rows/s
+Verify batch 380
+Point lookup id: 0ca098ab-18cc-4eb7-a669-7d0ab00fac01
+Trace lookup trace_id: tr-40ea1761f24e6f9ace3ef78d0d5e9ea4
+Free-text sample: and key activities completed during
+
+Batch   381 |    381,000 / 1,000,000 | 38.1% | 359 rows/s
+Batch   382 |    382,000 / 1,000,000 | 38.2% | 359 rows/s
+Batch   383 |    383,000 / 1,000,000 | 38.3% | 358 rows/s
+Batch   384 |    384,000 / 1,000,000 | 38.4% | 358 rows/s
+Batch   385 |    385,000 / 1,000,000 | 38.5% | 357 rows/s
+Batch   386 |    386,000 / 1,000,000 | 38.6% | 357 rows/s
+Batch   387 |    387,000 / 1,000,000 | 38.7% | 356 rows/s
+Batch   388 |    388,000 / 1,000,000 | 38.8% | 356 rows/s
+Batch   389 |    389,000 / 1,000,000 | 38.9% | 355 rows/s
+Batch   390 |    390,000 / 1,000,000 | 39.0% | 355 rows/s
+Batch   391 |    391,000 / 1,000,000 | 39.1% | 354 rows/s
+Batch   392 |    392,000 / 1,000,000 | 39.2% | 354 rows/s
+Batch   393 |    393,000 / 1,000,000 | 39.3% | 354 rows/s
+Batch   394 |    394,000 / 1,000,000 | 39.4% | 354 rows/s
+Batch   395 |    395,000 / 1,000,000 | 39.5% | 353 rows/s
+Batch   396 |    396,000 / 1,000,000 | 39.6% | 353 rows/s
+Batch   397 |    397,000 / 1,000,000 | 39.7% | 353 rows/s
+Batch   398 |    398,000 / 1,000,000 | 39.8% | 353 rows/s
+Batch   399 |    399,000 / 1,000,000 | 39.9% | 353 rows/s
+Batch   400 |    400,000 / 1,000,000 | 40.0% | 353 rows/s
+Verify batch 400
+Point lookup id: 4b12ebdb-21d3-488c-bcc6-975fee11b73b
+Trace lookup trace_id: tr-7ea9f068a460ee6c285e7ca7af850c51
+Free-text sample: anomalies and trigger incident responses.
+
+Batch   401 |    401,000 / 1,000,000 | 40.1% | 353 rows/s
+Batch   402 |    402,000 / 1,000,000 | 40.2% | 353 rows/s
+Batch   403 |    403,000 / 1,000,000 | 40.3% | 353 rows/s
+Batch   404 |    404,000 / 1,000,000 | 40.4% | 353 rows/s
+Batch   405 |    405,000 / 1,000,000 | 40.5% | 353 rows/s
+Batch   406 |    406,000 / 1,000,000 | 40.6% | 353 rows/s
+Batch   407 |    407,000 / 1,000,000 | 40.7% | 353 rows/s
+Batch   408 |    408,000 / 1,000,000 | 40.8% | 353 rows/s
+Batch   409 |    409,000 / 1,000,000 | 40.9% | 353 rows/s
+Batch   410 |    410,000 / 1,000,000 | 41.0% | 353 rows/s
+Batch   411 |    411,000 / 1,000,000 | 41.1% | 353 rows/s
+Batch   412 |    412,000 / 1,000,000 | 41.2% | 353 rows/s
+Batch   413 |    413,000 / 1,000,000 | 41.3% | 353 rows/s
+Batch   414 |    414,000 / 1,000,000 | 41.4% | 353 rows/s
+Batch   415 |    415,000 / 1,000,000 | 41.5% | 353 rows/s
+Batch   416 |    416,000 / 1,000,000 | 41.6% | 353 rows/s
+Batch   417 |    417,000 / 1,000,000 | 41.7% | 354 rows/s
+Batch   418 |    418,000 / 1,000,000 | 41.8% | 354 rows/s
+Batch   419 |    419,000 / 1,000,000 | 41.9% | 354 rows/s
+Batch   420 |    420,000 / 1,000,000 | 42.0% | 354 rows/s
+Verify batch 420
+Point lookup id: 81d87988-9d82-4b1a-86b1-10ab686c9cf9
+Trace lookup trace_id: tr-df35ddf90fe44c0afd1a334f5d2aa398
+Free-text sample: cross-functional collaboration. The infrastructure team
+
+Batch   421 |    421,000 / 1,000,000 | 42.1% | 353 rows/s
+Batch   422 |    422,000 / 1,000,000 | 42.2% | 353 rows/s
+Batch   423 |    423,000 / 1,000,000 | 42.3% | 353 rows/s
+Batch   424 |    424,000 / 1,000,000 | 42.4% | 353 rows/s
+Batch   425 |    425,000 / 1,000,000 | 42.5% | 353 rows/s
+Batch   426 |    426,000 / 1,000,000 | 42.6% | 353 rows/s
+Batch   427 |    427,000 / 1,000,000 | 42.7% | 353 rows/s
+Batch   428 |    428,000 / 1,000,000 | 42.8% | 353 rows/s
+Batch   429 |    429,000 / 1,000,000 | 42.9% | 353 rows/s
+Batch   430 |    430,000 / 1,000,000 | 43.0% | 353 rows/s
+Batch   431 |    431,000 / 1,000,000 | 43.1% | 353 rows/s
+Batch   432 |    432,000 / 1,000,000 | 43.2% | 353 rows/s
+Batch   433 |    433,000 / 1,000,000 | 43.3% | 353 rows/s
+Batch   434 |    434,000 / 1,000,000 | 43.4% | 353 rows/s
+Batch   435 |    435,000 / 1,000,000 | 43.5% | 353 rows/s
+Batch   436 |    436,000 / 1,000,000 | 43.6% | 353 rows/s
+Batch   437 |    437,000 / 1,000,000 | 43.7% | 353 rows/s
+Batch   438 |    438,000 / 1,000,000 | 43.8% | 353 rows/s
+Batch   439 |    439,000 / 1,000,000 | 43.9% | 353 rows/s
+Batch   440 |    440,000 / 1,000,000 | 44.0% | 352 rows/s
+Verify batch 440
+Point lookup id: 10ebcfa7-49ed-4dfe-8a11-256bcda4072e
+Trace lookup trace_id: tr-26fdb8d663e6e79c65e3a678201f3c13
+Free-text sample: unexpected traffic spikes. The onboarding
+
+Batch   441 |    441,000 / 1,000,000 | 44.1% | 352 rows/s
+Batch   442 |    442,000 / 1,000,000 | 44.2% | 352 rows/s
+Batch   443 |    443,000 / 1,000,000 | 44.3% | 352 rows/s
+Batch   444 |    444,000 / 1,000,000 | 44.4% | 352 rows/s
+Batch   445 |    445,000 / 1,000,000 | 44.5% | 352 rows/s
+Batch   446 |    446,000 / 1,000,000 | 44.6% | 352 rows/s
+Batch   447 |    447,000 / 1,000,000 | 44.7% | 353 rows/s
+Batch   448 |    448,000 / 1,000,000 | 44.8% | 353 rows/s
+Batch   449 |    449,000 / 1,000,000 | 44.9% | 353 rows/s
+Batch   450 |    450,000 / 1,000,000 | 45.0% | 353 rows/s
+Batch   451 |    451,000 / 1,000,000 | 45.1% | 353 rows/s
+Batch   452 |    452,000 / 1,000,000 | 45.2% | 353 rows/s
+Batch   453 |    453,000 / 1,000,000 | 45.3% | 353 rows/s
+Batch   454 |    454,000 / 1,000,000 | 45.4% | 353 rows/s
+Batch   455 |    455,000 / 1,000,000 | 45.5% | 353 rows/s
+Batch   456 |    456,000 / 1,000,000 | 45.6% | 353 rows/s
+Batch   457 |    457,000 / 1,000,000 | 45.7% | 353 rows/s
+Batch   458 |    458,000 / 1,000,000 | 45.8% | 353 rows/s
+Batch   459 |    459,000 / 1,000,000 | 45.9% | 353 rows/s
+Batch   460 |    460,000 / 1,000,000 | 46.0% | 353 rows/s
+Verify batch 460
+Point lookup id: db6488e0-c392-40cc-9426-8cca04eb64cf
+Trace lookup trace_id: tr-d0862a6afb0339663c2ab251869da373
+Free-text sample: architectural changes and deployment procedures.
+
+Batch   461 |    461,000 / 1,000,000 | 46.1% | 353 rows/s
+Batch   462 |    462,000 / 1,000,000 | 46.2% | 353 rows/s
+Batch   463 |    463,000 / 1,000,000 | 46.3% | 353 rows/s
+Batch   464 |    464,000 / 1,000,000 | 46.4% | 353 rows/s
+Batch   465 |    465,000 / 1,000,000 | 46.5% | 353 rows/s
+Batch   466 |    466,000 / 1,000,000 | 46.6% | 353 rows/s
+Batch   467 |    467,000 / 1,000,000 | 46.7% | 353 rows/s
+Batch   468 |    468,000 / 1,000,000 | 46.8% | 354 rows/s
+Batch   469 |    469,000 / 1,000,000 | 46.9% | 354 rows/s
+Batch   470 |    470,000 / 1,000,000 | 47.0% | 354 rows/s
+Batch   471 |    471,000 / 1,000,000 | 47.1% | 353 rows/s
+Batch   472 |    472,000 / 1,000,000 | 47.2% | 354 rows/s
+Batch   473 |    473,000 / 1,000,000 | 47.3% | 354 rows/s
+Batch   474 |    474,000 / 1,000,000 | 47.4% | 354 rows/s
+Batch   475 |    475,000 / 1,000,000 | 47.5% | 354 rows/s
+Batch   476 |    476,000 / 1,000,000 | 47.6% | 354 rows/s
+Batch   477 |    477,000 / 1,000,000 | 47.7% | 354 rows/s
+Batch   478 |    478,000 / 1,000,000 | 47.8% | 354 rows/s
+Batch   479 |    479,000 / 1,000,000 | 47.9% | 354 rows/s
+Batch   480 |    480,000 / 1,000,000 | 48.0% | 354 rows/s
+Verify batch 480
+Point lookup id: f906acd7-db67-4781-8cf1-cec3c3388e06
+Trace lookup trace_id: tr-10678b97635e173b084e8f3c681527cb
+Free-text sample: throughput. Security audits were conducted
+
+Batch   481 |    481,000 / 1,000,000 | 48.1% | 353 rows/s
+Batch   482 |    482,000 / 1,000,000 | 48.2% | 353 rows/s
+Batch   483 |    483,000 / 1,000,000 | 48.3% | 353 rows/s
+Batch   484 |    484,000 / 1,000,000 | 48.4% | 353 rows/s
+Batch   485 |    485,000 / 1,000,000 | 48.5% | 353 rows/s
+Batch   486 |    486,000 / 1,000,000 | 48.6% | 353 rows/s
+Batch   487 |    487,000 / 1,000,000 | 48.7% | 353 rows/s
+Batch   488 |    488,000 / 1,000,000 | 48.8% | 353 rows/s
+Batch   489 |    489,000 / 1,000,000 | 48.9% | 353 rows/s
+Batch   490 |    490,000 / 1,000,000 | 49.0% | 353 rows/s
+Batch   491 |    491,000 / 1,000,000 | 49.1% | 353 rows/s
+Batch   492 |    492,000 / 1,000,000 | 49.2% | 353 rows/s
+Batch   493 |    493,000 / 1,000,000 | 49.3% | 353 rows/s
+Batch   494 |    494,000 / 1,000,000 | 49.4% | 353 rows/s
+Batch   495 |    495,000 / 1,000,000 | 49.5% | 353 rows/s
+Batch   496 |    496,000 / 1,000,000 | 49.6% | 353 rows/s
+Batch   497 |    497,000 / 1,000,000 | 49.7% | 353 rows/s
+Batch   498 |    498,000 / 1,000,000 | 49.8% | 353 rows/s
+Batch   499 |    499,000 / 1,000,000 | 49.9% | 353 rows/s
+Batch   500 |    500,000 / 1,000,000 | 50.0% | 353 rows/s
+Verify batch 500
+Point lookup id: 4e36f243-2d5c-468b-bdff-a1ea4895a684
+Trace lookup trace_id: tr-4ce303d9f8cce8032c9663a095fba124
+Free-text sample: team successfully delivered three major
+
+Batch   501 |    501,000 / 1,000,000 | 50.1% | 353 rows/s
+Batch   502 |    502,000 / 1,000,000 | 50.2% | 353 rows/s
+Batch   503 |    503,000 / 1,000,000 | 50.3% | 353 rows/s
+Batch   504 |    504,000 / 1,000,000 | 50.4% | 353 rows/s
+Batch   505 |    505,000 / 1,000,000 | 50.5% | 353 rows/s
+Batch   506 |    506,000 / 1,000,000 | 50.6% | 353 rows/s
+Batch   507 |    507,000 / 1,000,000 | 50.7% | 353 rows/s
+Batch   508 |    508,000 / 1,000,000 | 50.8% | 353 rows/s
+Batch   509 |    509,000 / 1,000,000 | 50.9% | 353 rows/s
+Batch   510 |    510,000 / 1,000,000 | 51.0% | 353 rows/s
+Batch   511 |    511,000 / 1,000,000 | 51.1% | 353 rows/s
+Batch   512 |    512,000 / 1,000,000 | 51.2% | 353 rows/s
+Batch   513 |    513,000 / 1,000,000 | 51.3% | 353 rows/s
+Batch   514 |    514,000 / 1,000,000 | 51.4% | 353 rows/s
+Batch   515 |    515,000 / 1,000,000 | 51.5% | 353 rows/s
+Batch   516 |    516,000 / 1,000,000 | 51.6% | 353 rows/s
+Batch   517 |    517,000 / 1,000,000 | 51.7% | 353 rows/s
+Batch   518 |    518,000 / 1,000,000 | 51.8% | 353 rows/s
+Batch   519 |    519,000 / 1,000,000 | 51.9% | 353 rows/s
+Batch   520 |    520,000 / 1,000,000 | 52.0% | 353 rows/s
+Verify batch 520
+Point lookup id: 201bc4ed-4328-47fc-8ceb-b1ffb6a31bf9
+Trace lookup trace_id: tr-941d7fab55bc07a093333ca66b3de0a6
+Free-text sample: technical challenges were identified and
+
+Batch   521 |    521,000 / 1,000,000 | 52.1% | 353 rows/s
+Batch   522 |    522,000 / 1,000,000 | 52.2% | 353 rows/s
+Batch   523 |    523,000 / 1,000,000 | 52.3% | 353 rows/s
+Batch   524 |    524,000 / 1,000,000 | 52.4% | 353 rows/s
+Batch   525 |    525,000 / 1,000,000 | 52.5% | 353 rows/s
+Batch   526 |    526,000 / 1,000,000 | 52.6% | 353 rows/s
+Batch   527 |    527,000 / 1,000,000 | 52.7% | 352 rows/s
+Batch   528 |    528,000 / 1,000,000 | 52.8% | 352 rows/s
+Batch   529 |    529,000 / 1,000,000 | 52.9% | 352 rows/s
+Batch   530 |    530,000 / 1,000,000 | 53.0% | 352 rows/s
+Batch   531 |    531,000 / 1,000,000 | 53.1% | 352 rows/s
+Batch   532 |    532,000 / 1,000,000 | 53.2% | 351 rows/s
+Batch   533 |    533,000 / 1,000,000 | 53.3% | 351 rows/s
+Batch   534 |    534,000 / 1,000,000 | 53.4% | 351 rows/s
+Batch   535 |    535,000 / 1,000,000 | 53.5% | 350 rows/s
+Batch   536 |    536,000 / 1,000,000 | 53.6% | 350 rows/s
+Batch   537 |    537,000 / 1,000,000 | 53.7% | 350 rows/s
+Batch   538 |    538,000 / 1,000,000 | 53.8% | 350 rows/s
+Batch   539 |    539,000 / 1,000,000 | 53.9% | 349 rows/s
+Batch   540 |    540,000 / 1,000,000 | 54.0% | 349 rows/s
+Verify batch 540
+Point lookup id: ab8ae00a-ddb3-4038-b679-79caf0356ac6
+Trace lookup trace_id: tr-d21f9fc127b9849fddfaf59354916108
+Free-text sample: configured to detect anomalies and
+
+Batch   541 |    541,000 / 1,000,000 | 54.1% | 349 rows/s
+Batch   542 |    542,000 / 1,000,000 | 54.2% | 349 rows/s
+Batch   543 |    543,000 / 1,000,000 | 54.3% | 349 rows/s
+Batch   544 |    544,000 / 1,000,000 | 54.4% | 349 rows/s
+Batch   545 |    545,000 / 1,000,000 | 54.5% | 349 rows/s
+Batch   546 |    546,000 / 1,000,000 | 54.6% | 349 rows/s
+Batch   547 |    547,000 / 1,000,000 | 54.7% | 349 rows/s
+Batch   548 |    548,000 / 1,000,000 | 54.8% | 349 rows/s
+Batch   549 |    549,000 / 1,000,000 | 54.9% | 349 rows/s
+Batch   550 |    550,000 / 1,000,000 | 55.0% | 349 rows/s
+Batch   551 |    551,000 / 1,000,000 | 55.1% | 349 rows/s
+Batch   552 |    552,000 / 1,000,000 | 55.2% | 349 rows/s
+Batch   553 |    553,000 / 1,000,000 | 55.3% | 349 rows/s
+Batch   554 |    554,000 / 1,000,000 | 55.4% | 349 rows/s
+Batch   555 |    555,000 / 1,000,000 | 55.5% | 349 rows/s
+Batch   556 |    556,000 / 1,000,000 | 55.6% | 349 rows/s
+Batch   557 |    557,000 / 1,000,000 | 55.7% | 349 rows/s
+Batch   558 |    558,000 / 1,000,000 | 55.8% | 349 rows/s
+Batch   559 |    559,000 / 1,000,000 | 55.9% | 348 rows/s
+Batch   560 |    560,000 / 1,000,000 | 56.0% | 348 rows/s
+Verify batch 560
+Point lookup id: 5dbe1df7-5191-4e92-82f2-b1942dc05da1
+Trace lookup trace_id: tr-78b6070987459480a9e3382b8a8a39ff
+Free-text sample: throughput. Security audits were conducted
+
+Batch   561 |    561,000 / 1,000,000 | 56.1% | 347 rows/s
+Batch   562 |    562,000 / 1,000,000 | 56.2% | 347 rows/s
+Batch   563 |    563,000 / 1,000,000 | 56.3% | 347 rows/s
+Batch   564 |    564,000 / 1,000,000 | 56.4% | 347 rows/s
+Batch   565 |    565,000 / 1,000,000 | 56.5% | 347 rows/s
+Batch   566 |    566,000 / 1,000,000 | 56.6% | 347 rows/s
+Batch   567 |    567,000 / 1,000,000 | 56.7% | 347 rows/s
+Batch   568 |    568,000 / 1,000,000 | 56.8% | 347 rows/s
+Batch   569 |    569,000 / 1,000,000 | 56.9% | 347 rows/s
+Batch   570 |    570,000 / 1,000,000 | 57.0% | 347 rows/s
+Batch   571 |    571,000 / 1,000,000 | 57.1% | 347 rows/s
+Batch   572 |    572,000 / 1,000,000 | 57.2% | 347 rows/s
+Batch   573 |    573,000 / 1,000,000 | 57.3% | 347 rows/s
+Batch   574 |    574,000 / 1,000,000 | 57.4% | 347 rows/s
+Batch   575 |    575,000 / 1,000,000 | 57.5% | 347 rows/s
+Batch   576 |    576,000 / 1,000,000 | 57.6% | 347 rows/s
+Batch   577 |    577,000 / 1,000,000 | 57.7% | 347 rows/s
+Batch   578 |    578,000 / 1,000,000 | 57.8% | 347 rows/s
+Batch   579 |    579,000 / 1,000,000 | 57.9% | 347 rows/s
+Batch   580 |    580,000 / 1,000,000 | 58.0% | 347 rows/s
+Verify batch 580
+Point lookup id: c82b1f3e-c58f-4973-bb46-466c0ce0e5c0
+Trace lookup trace_id: tr-055bac208ceea65244da625816501e94
+Free-text sample: team completed the migration to
+
+Batch   581 |    581,000 / 1,000,000 | 58.1% | 347 rows/s
+Batch   582 |    582,000 / 1,000,000 | 58.2% | 347 rows/s
+Batch   583 |    583,000 / 1,000,000 | 58.3% | 347 rows/s
+Batch   584 |    584,000 / 1,000,000 | 58.4% | 347 rows/s
+Batch   585 |    585,000 / 1,000,000 | 58.5% | 347 rows/s
+Batch   586 |    586,000 / 1,000,000 | 58.6% | 347 rows/s
+Batch   587 |    587,000 / 1,000,000 | 58.7% | 347 rows/s
+Batch   588 |    588,000 / 1,000,000 | 58.8% | 347 rows/s
+Batch   589 |    589,000 / 1,000,000 | 58.9% | 347 rows/s
+Batch   590 |    590,000 / 1,000,000 | 59.0% | 347 rows/s
+Batch   591 |    591,000 / 1,000,000 | 59.1% | 347 rows/s
+Batch   592 |    592,000 / 1,000,000 | 59.2% | 347 rows/s
+Batch   593 |    593,000 / 1,000,000 | 59.3% | 347 rows/s
+Batch   594 |    594,000 / 1,000,000 | 59.4% | 347 rows/s
+Batch   595 |    595,000 / 1,000,000 | 59.5% | 347 rows/s
+Batch   596 |    596,000 / 1,000,000 | 59.6% | 347 rows/s
+Batch   597 |    597,000 / 1,000,000 | 59.7% | 347 rows/s
+Batch   598 |    598,000 / 1,000,000 | 59.8% | 347 rows/s
+Batch   599 |    599,000 / 1,000,000 | 59.9% | 347 rows/s
+Batch   600 |    600,000 / 1,000,000 | 60.0% | 347 rows/s
+Verify batch 600
+Point lookup id: 0ff80716-95a1-4dec-9504-1736caf25904
+Trace lookup trace_id: tr-48674d952b9fc5223fb8483474c191cd
+Free-text sample: through cross-functional collaboration. The infrastructure
+
+Batch   601 |    601,000 / 1,000,000 | 60.1% | 347 rows/s
+Batch   602 |    602,000 / 1,000,000 | 60.2% | 347 rows/s
+Batch   603 |    603,000 / 1,000,000 | 60.3% | 347 rows/s
+Batch   604 |    604,000 / 1,000,000 | 60.4% | 347 rows/s
+Batch   605 |    605,000 / 1,000,000 | 60.5% | 347 rows/s
+Batch   606 |    606,000 / 1,000,000 | 60.6% | 348 rows/s
+Batch   607 |    607,000 / 1,000,000 | 60.7% | 348 rows/s
+Batch   608 |    608,000 / 1,000,000 | 60.8% | 348 rows/s
+Batch   609 |    609,000 / 1,000,000 | 60.9% | 348 rows/s
+Batch   610 |    610,000 / 1,000,000 | 61.0% | 348 rows/s
+Batch   611 |    611,000 / 1,000,000 | 61.1% | 348 rows/s
+Batch   612 |    612,000 / 1,000,000 | 61.2% | 348 rows/s
+Batch   613 |    613,000 / 1,000,000 | 61.3% | 348 rows/s
+Batch   614 |    614,000 / 1,000,000 | 61.4% | 348 rows/s
+Batch   615 |    615,000 / 1,000,000 | 61.5% | 348 rows/s
+Batch   616 |    616,000 / 1,000,000 | 61.6% | 348 rows/s
+Batch   617 |    617,000 / 1,000,000 | 61.7% | 348 rows/s
+Batch   618 |    618,000 / 1,000,000 | 61.8% | 348 rows/s
+Batch   619 |    619,000 / 1,000,000 | 61.9% | 348 rows/s
+Batch   620 |    620,000 / 1,000,000 | 62.0% | 348 rows/s
+Verify batch 620
+Point lookup id: f7234486-d22a-4f1a-8682-62dabf6ab5ce
+Trace lookup trace_id: tr-a7843ff15ebf9f9b7ceda39eb8b1f117
+Free-text sample: focus has been on advancing
+
+Batch   621 |    621,000 / 1,000,000 | 62.1% | 348 rows/s
+Batch   622 |    622,000 / 1,000,000 | 62.2% | 348 rows/s
+Batch   623 |    623,000 / 1,000,000 | 62.3% | 348 rows/s
+Batch   624 |    624,000 / 1,000,000 | 62.4% | 348 rows/s
+Batch   625 |    625,000 / 1,000,000 | 62.5% | 348 rows/s
+Batch   626 |    626,000 / 1,000,000 | 62.6% | 347 rows/s
+Batch   627 |    627,000 / 1,000,000 | 62.7% | 347 rows/s
+Batch   628 |    628,000 / 1,000,000 | 62.8% | 346 rows/s
+Batch   629 |    629,000 / 1,000,000 | 62.9% | 345 rows/s
+Batch   630 |    630,000 / 1,000,000 | 63.0% | 344 rows/s
+Batch   631 |    631,000 / 1,000,000 | 63.1% | 342 rows/s
+Batch   632 |    632,000 / 1,000,000 | 63.2% | 340 rows/s
+Batch   633 |    633,000 / 1,000,000 | 63.3% | 338 rows/s
+Batch   634 |    634,000 / 1,000,000 | 63.4% | 336 rows/s
+Batch   635 |    635,000 / 1,000,000 | 63.5% | 335 rows/s
+Batch   636 |    636,000 / 1,000,000 | 63.6% | 333 rows/s
+Batch   637 |    637,000 / 1,000,000 | 63.7% | 332 rows/s
+Batch   638 |    638,000 / 1,000,000 | 63.8% | 331 rows/s
+Batch   639 |    639,000 / 1,000,000 | 63.9% | 330 rows/s
+Batch   640 |    640,000 / 1,000,000 | 64.0% | 329 rows/s
+Verify batch 640
+Point lookup id: 6004e2a1-cb5f-44d5-acb7-20af19443aff
+Trace lookup trace_id: tr-63dc005a91819e3ddc25046e9039a928
+Free-text sample: 3b994e c3d7e5 b48e d55e 4ba8
+
+Batch   641 |    641,000 / 1,000,000 | 64.1% | 328 rows/s
+Batch   642 |    642,000 / 1,000,000 | 64.2% | 328 rows/s
+Batch   643 |    643,000 / 1,000,000 | 64.3% | 328 rows/s
+Batch   644 |    644,000 / 1,000,000 | 64.4% | 328 rows/s
+Batch   645 |    645,000 / 1,000,000 | 64.5% | 327 rows/s
+Batch   646 |    646,000 / 1,000,000 | 64.6% | 327 rows/s
+Batch   647 |    647,000 / 1,000,000 | 64.7% | 327 rows/s
+Batch   648 |    648,000 / 1,000,000 | 64.8% | 327 rows/s
+Batch   649 |    649,000 / 1,000,000 | 64.9% | 327 rows/s
+Batch   650 |    650,000 / 1,000,000 | 65.0% | 327 rows/s
+Batch   651 |    651,000 / 1,000,000 | 65.1% | 326 rows/s
+Batch   652 |    652,000 / 1,000,000 | 65.2% | 326 rows/s
+Batch   653 |    653,000 / 1,000,000 | 65.3% | 326 rows/s
+Batch   654 |    654,000 / 1,000,000 | 65.4% | 327 rows/s
+Batch   655 |    655,000 / 1,000,000 | 65.5% | 327 rows/s
+Batch   656 |    656,000 / 1,000,000 | 65.6% | 327 rows/s
+Batch   657 |    657,000 / 1,000,000 | 65.7% | 326 rows/s
+Batch   658 |    658,000 / 1,000,000 | 65.8% | 326 rows/s
+Batch   659 |    659,000 / 1,000,000 | 65.9% | 326 rows/s
+Batch   660 |    660,000 / 1,000,000 | 66.0% | 326 rows/s
+Verify batch 660
+Point lookup id: 452067dd-d899-4ed8-8237-f5dc1c4cdb48
+Trace lookup trace_id: tr-af92a5343490e6d0e1ab7ff3ede87c47
+Free-text sample: minimal bd56af2 db8b42 152598 bc7b
+
+Batch   661 |    661,000 / 1,000,000 | 66.1% | 326 rows/s
+Batch   662 |    662,000 / 1,000,000 | 66.2% | 326 rows/s
+Batch   663 |    663,000 / 1,000,000 | 66.3% | 326 rows/s
+Batch   664 |    664,000 / 1,000,000 | 66.4% | 326 rows/s
+Batch   665 |    665,000 / 1,000,000 | 66.5% | 326 rows/s
+Batch   666 |    666,000 / 1,000,000 | 66.6% | 326 rows/s
+Batch   667 |    667,000 / 1,000,000 | 66.7% | 326 rows/s
+Batch   668 |    668,000 / 1,000,000 | 66.8% | 326 rows/s
+Batch   669 |    669,000 / 1,000,000 | 66.9% | 326 rows/s
+Batch   670 |    670,000 / 1,000,000 | 67.0% | 326 rows/s
+Batch   671 |    671,000 / 1,000,000 | 67.1% | 326 rows/s
+Batch   672 |    672,000 / 1,000,000 | 67.2% | 326 rows/s
+Batch   673 |    673,000 / 1,000,000 | 67.3% | 326 rows/s
+Batch   674 |    674,000 / 1,000,000 | 67.4% | 326 rows/s
+Batch   675 |    675,000 / 1,000,000 | 67.5% | 326 rows/s
+Batch   676 |    676,000 / 1,000,000 | 67.6% | 326 rows/s
+Batch   677 |    677,000 / 1,000,000 | 67.7% | 326 rows/s
+Batch   678 |    678,000 / 1,000,000 | 67.8% | 326 rows/s
+Batch   679 |    679,000 / 1,000,000 | 67.9% | 326 rows/s
+Batch   680 |    680,000 / 1,000,000 | 68.0% | 326 rows/s
+Verify batch 680
+Point lookup id: 75d460a6-dc25-4284-8e87-df215958b7b3
+Trace lookup trace_id: tr-f86e80e20c504f532b6664fcb25c7dbb
+Free-text sample: the current period. The primary
+
+Batch   681 |    681,000 / 1,000,000 | 68.1% | 326 rows/s
+Batch   682 |    682,000 / 1,000,000 | 68.2% | 326 rows/s
+Batch   683 |    683,000 / 1,000,000 | 68.3% | 326 rows/s
+Batch   684 |    684,000 / 1,000,000 | 68.4% | 326 rows/s
+Batch   685 |    685,000 / 1,000,000 | 68.5% | 326 rows/s
+Batch   686 |    686,000 / 1,000,000 | 68.6% | 326 rows/s
+Batch   687 |    687,000 / 1,000,000 | 68.7% | 326 rows/s
+Batch   688 |    688,000 / 1,000,000 | 68.8% | 326 rows/s
+Batch   689 |    689,000 / 1,000,000 | 68.9% | 326 rows/s
+Batch   690 |    690,000 / 1,000,000 | 69.0% | 326 rows/s
+Batch   691 |    691,000 / 1,000,000 | 69.1% | 326 rows/s
+Batch   692 |    692,000 / 1,000,000 | 69.2% | 326 rows/s
+Batch   693 |    693,000 / 1,000,000 | 69.3% | 326 rows/s
+Batch   694 |    694,000 / 1,000,000 | 69.4% | 326 rows/s
+Batch   695 |    695,000 / 1,000,000 | 69.5% | 326 rows/s
+Batch   696 |    696,000 / 1,000,000 | 69.6% | 326 rows/s
+Batch   697 |    697,000 / 1,000,000 | 69.7% | 326 rows/s
+Batch   698 |    698,000 / 1,000,000 | 69.8% | 326 rows/s
+Batch   699 |    699,000 / 1,000,000 | 69.9% | 325 rows/s
+Batch   700 |    700,000 / 1,000,000 | 70.0% | 325 rows/s
+Verify batch 700
+Point lookup id: 2935088d-4bdb-4bd5-a3a2-83ab610e7d55
+Trace lookup trace_id: tr-6f2af23439be08c207d3bc696cdb115e
+Free-text sample: infrastructure team completed the migration
+
+Batch   701 |    701,000 / 1,000,000 | 70.1% | 325 rows/s
+Batch   702 |    702,000 / 1,000,000 | 70.2% | 324 rows/s
+Batch   703 |    703,000 / 1,000,000 | 70.3% | 324 rows/s
+Batch   704 |    704,000 / 1,000,000 | 70.4% | 324 rows/s
+Batch   705 |    705,000 / 1,000,000 | 70.5% | 324 rows/s
+Batch   706 |    706,000 / 1,000,000 | 70.6% | 324 rows/s
+Batch   707 |    707,000 / 1,000,000 | 70.7% | 323 rows/s
+Batch   708 |    708,000 / 1,000,000 | 70.8% | 323 rows/s
+Batch   709 |    709,000 / 1,000,000 | 70.9% | 323 rows/s
+Batch   710 |    710,000 / 1,000,000 | 71.0% | 323 rows/s
+Batch   711 |    711,000 / 1,000,000 | 71.1% | 323 rows/s
+Batch   712 |    712,000 / 1,000,000 | 71.2% | 323 rows/s
+Batch   713 |    713,000 / 1,000,000 | 71.3% | 323 rows/s
+Batch   714 |    714,000 / 1,000,000 | 71.4% | 322 rows/s
+Batch   715 |    715,000 / 1,000,000 | 71.5% | 322 rows/s
+Batch   716 |    716,000 / 1,000,000 | 71.6% | 322 rows/s
+Batch   717 |    717,000 / 1,000,000 | 71.7% | 322 rows/s
+Batch   718 |    718,000 / 1,000,000 | 71.8% | 321 rows/s
+Batch   719 |    719,000 / 1,000,000 | 71.9% | 321 rows/s
+Batch   720 |    720,000 / 1,000,000 | 72.0% | 321 rows/s
+Verify batch 720
+Point lookup id: 9dc22da7-4df9-4b9d-bdc6-bcfd8b0b5f79
+Trace lookup trace_id: tr-0d786ca032d3de26beac81f7848f21bb
+Free-text sample: updated guides and tutorials. Automated
+
+Batch   721 |    721,000 / 1,000,000 | 72.1% | 321 rows/s
+Batch   722 |    722,000 / 1,000,000 | 72.2% | 321 rows/s
+Batch   723 |    723,000 / 1,000,000 | 72.3% | 321 rows/s
+Batch   724 |    724,000 / 1,000,000 | 72.4% | 320 rows/s
+Batch   725 |    725,000 / 1,000,000 | 72.5% | 320 rows/s
+Batch   726 |    726,000 / 1,000,000 | 72.6% | 320 rows/s
+Batch   727 |    727,000 / 1,000,000 | 72.7% | 320 rows/s
+Batch   728 |    728,000 / 1,000,000 | 72.8% | 320 rows/s
+Batch   729 |    729,000 / 1,000,000 | 72.9% | 320 rows/s
+Batch   730 |    730,000 / 1,000,000 | 73.0% | 320 rows/s
+Batch   731 |    731,000 / 1,000,000 | 73.1% | 320 rows/s
+Batch   732 |    732,000 / 1,000,000 | 73.2% | 320 rows/s
+Batch   733 |    733,000 / 1,000,000 | 73.3% | 320 rows/s
+Batch   734 |    734,000 / 1,000,000 | 73.4% | 320 rows/s
+Batch   735 |    735,000 / 1,000,000 | 73.5% | 320 rows/s
+Batch   736 |    736,000 / 1,000,000 | 73.6% | 320 rows/s
+Batch   737 |    737,000 / 1,000,000 | 73.7% | 320 rows/s
+Batch   738 |    738,000 / 1,000,000 | 73.8% | 320 rows/s
+Batch   739 |    739,000 / 1,000,000 | 73.9% | 320 rows/s
+Batch   740 |    740,000 / 1,000,000 | 74.0% | 320 rows/s
+Verify batch 740
+Point lookup id: 6c008989-aae4-4dc7-b9b4-0e9298d65bd2
+Trace lookup trace_id: tr-f18dbc0a1610fc1a119b7bb0dd8598ce
+Free-text sample: and quality benchmarks set by
+
+Batch   741 |    741,000 / 1,000,000 | 74.1% | 319 rows/s
+Batch   742 |    742,000 / 1,000,000 | 74.2% | 319 rows/s
+Batch   743 |    743,000 / 1,000,000 | 74.3% | 319 rows/s
+Batch   744 |    744,000 / 1,000,000 | 74.4% | 319 rows/s
+Batch   745 |    745,000 / 1,000,000 | 74.5% | 319 rows/s
+Batch   746 |    746,000 / 1,000,000 | 74.6% | 319 rows/s
+Batch   747 |    747,000 / 1,000,000 | 74.7% | 319 rows/s
+Batch   748 |    748,000 / 1,000,000 | 74.8% | 318 rows/s
+Batch   749 |    749,000 / 1,000,000 | 74.9% | 318 rows/s
+Batch   750 |    750,000 / 1,000,000 | 75.0% | 318 rows/s
+Batch   751 |    751,000 / 1,000,000 | 75.1% | 318 rows/s
+Batch   752 |    752,000 / 1,000,000 | 75.2% | 318 rows/s
+Batch   753 |    753,000 / 1,000,000 | 75.3% | 318 rows/s
+Batch   754 |    754,000 / 1,000,000 | 75.4% | 317 rows/s
+Batch   755 |    755,000 / 1,000,000 | 75.5% | 317 rows/s
+Batch   756 |    756,000 / 1,000,000 | 75.6% | 317 rows/s
+Batch   757 |    757,000 / 1,000,000 | 75.7% | 317 rows/s
+Batch   758 |    758,000 / 1,000,000 | 75.8% | 317 rows/s
+Batch   759 |    759,000 / 1,000,000 | 75.9% | 317 rows/s
+Batch   760 |    760,000 / 1,000,000 | 76.0% | 317 rows/s
+Verify batch 760
+Point lookup id: 6b11d15e-a382-48ee-854a-5e78393cb83e
+Trace lookup trace_id: tr-1c7134335f8f36dc0fff3eec30b216c8
+Free-text sample: was streamlined with updated guides
+
+Batch   761 |    761,000 / 1,000,000 | 76.1% | 317 rows/s
+Batch   762 |    762,000 / 1,000,000 | 76.2% | 317 rows/s
+Batch   763 |    763,000 / 1,000,000 | 76.3% | 317 rows/s
+Batch   764 |    764,000 / 1,000,000 | 76.4% | 317 rows/s
+Batch   765 |    765,000 / 1,000,000 | 76.5% | 317 rows/s
+Batch   766 |    766,000 / 1,000,000 | 76.6% | 317 rows/s
+Batch   767 |    767,000 / 1,000,000 | 76.7% | 317 rows/s
+Batch   768 |    768,000 / 1,000,000 | 76.8% | 317 rows/s
+Batch   769 |    769,000 / 1,000,000 | 76.9% | 317 rows/s
+Batch   770 |    770,000 / 1,000,000 | 77.0% | 317 rows/s
+Batch   771 |    771,000 / 1,000,000 | 77.1% | 317 rows/s
+Batch   772 |    772,000 / 1,000,000 | 77.2% | 317 rows/s
+Batch   773 |    773,000 / 1,000,000 | 77.3% | 317 rows/s
+Batch   774 |    774,000 / 1,000,000 | 77.4% | 317 rows/s
+Batch   775 |    775,000 / 1,000,000 | 77.5% | 317 rows/s
+Batch   776 |    776,000 / 1,000,000 | 77.6% | 317 rows/s
+Batch   777 |    777,000 / 1,000,000 | 77.7% | 317 rows/s
+Batch   778 |    778,000 / 1,000,000 | 77.8% | 316 rows/s
+Batch   779 |    779,000 / 1,000,000 | 77.9% | 316 rows/s
+Batch   780 |    780,000 / 1,000,000 | 78.0% | 316 rows/s
+Verify batch 780
+Point lookup id: cf459e3d-dcb2-4fae-8b11-5c50b7b720f7
+Trace lookup trace_id: tr-96b7a68992cf5149cd8dafe2414ff7ad
+Free-text sample: 6ecc 63a9 a540a 50c370 f28e3a
+
+Batch   781 |    781,000 / 1,000,000 | 78.1% | 315 rows/s
+Batch   782 |    782,000 / 1,000,000 | 78.2% | 315 rows/s
+Batch   783 |    783,000 / 1,000,000 | 78.3% | 315 rows/s
+Batch   784 |    784,000 / 1,000,000 | 78.4% | 315 rows/s
+Batch   785 |    785,000 / 1,000,000 | 78.5% | 315 rows/s
+Batch   786 |    786,000 / 1,000,000 | 78.6% | 314 rows/s
+Batch   787 |    787,000 / 1,000,000 | 78.7% | 314 rows/s
+Batch   788 |    788,000 / 1,000,000 | 78.8% | 314 rows/s
+Batch   789 |    789,000 / 1,000,000 | 78.9% | 314 rows/s
+Batch   790 |    790,000 / 1,000,000 | 79.0% | 313 rows/s
+Batch   791 |    791,000 / 1,000,000 | 79.1% | 313 rows/s
+Batch   792 |    792,000 / 1,000,000 | 79.2% | 313 rows/s
+Batch   793 |    793,000 / 1,000,000 | 79.3% | 313 rows/s
+Batch   794 |    794,000 / 1,000,000 | 79.4% | 312 rows/s
+Batch   795 |    795,000 / 1,000,000 | 79.5% | 312 rows/s
+Batch   796 |    796,000 / 1,000,000 | 79.6% | 312 rows/s
+Batch   797 |    797,000 / 1,000,000 | 79.7% | 312 rows/s
+Batch   798 |    798,000 / 1,000,000 | 79.8% | 312 rows/s
+Batch   799 |    799,000 / 1,000,000 | 79.9% | 312 rows/s
+Batch   800 |    800,000 / 1,000,000 | 80.0% | 312 rows/s
+Verify batch 800
+Point lookup id: af095660-a049-4edd-b532-47f34ffbb4a9
+Trace lookup trace_id: tr-0c2925dcc757ea9650951919442747de
+Free-text sample: new team members was streamlined
+
+Batch   801 |    801,000 / 1,000,000 | 80.1% | 312 rows/s
+Batch   802 |    802,000 / 1,000,000 | 80.2% | 312 rows/s
+Batch   803 |    803,000 / 1,000,000 | 80.3% | 312 rows/s
+Batch   804 |    804,000 / 1,000,000 | 80.4% | 312 rows/s
+Batch   805 |    805,000 / 1,000,000 | 80.5% | 312 rows/s
+Batch   806 |    806,000 / 1,000,000 | 80.6% | 312 rows/s
+Batch   807 |    807,000 / 1,000,000 | 80.7% | 312 rows/s
+Batch   808 |    808,000 / 1,000,000 | 80.8% | 312 rows/s
+Batch   809 |    809,000 / 1,000,000 | 80.9% | 312 rows/s
+Batch   810 |    810,000 / 1,000,000 | 81.0% | 312 rows/s
+Batch   811 |    811,000 / 1,000,000 | 81.1% | 312 rows/s
+Batch   812 |    812,000 / 1,000,000 | 81.2% | 312 rows/s
+Batch   813 |    813,000 / 1,000,000 | 81.3% | 311 rows/s
+Batch   814 |    814,000 / 1,000,000 | 81.4% | 311 rows/s
+Batch   815 |    815,000 / 1,000,000 | 81.5% | 311 rows/s
+Batch   816 |    816,000 / 1,000,000 | 81.6% | 311 rows/s
+Batch   817 |    817,000 / 1,000,000 | 81.7% | 310 rows/s
+Batch   818 |    818,000 / 1,000,000 | 81.8% | 310 rows/s
+Batch   819 |    819,000 / 1,000,000 | 81.9% | 310 rows/s
+Batch   820 |    820,000 / 1,000,000 | 82.0% | 310 rows/s
+Verify batch 820
+Point lookup id: a23cfb4a-b0b4-4cd9-b892-cacc3962ce8c
+Trace lookup trace_id: tr-ed06dbfa853191d161b5d4ff5ade9840
+Free-text sample: and trigger incident responses. The
+
+Batch   821 |    821,000 / 1,000,000 | 82.1% | 310 rows/s
+Batch   822 |    822,000 / 1,000,000 | 82.2% | 309 rows/s
+Batch   823 |    823,000 / 1,000,000 | 82.3% | 309 rows/s
+Batch   824 |    824,000 / 1,000,000 | 82.4% | 309 rows/s
+Batch   825 |    825,000 / 1,000,000 | 82.5% | 309 rows/s
+Batch   826 |    826,000 / 1,000,000 | 82.6% | 309 rows/s
+Batch   827 |    827,000 / 1,000,000 | 82.7% | 308 rows/s
+Batch   828 |    828,000 / 1,000,000 | 82.8% | 308 rows/s
+Batch   829 |    829,000 / 1,000,000 | 82.9% | 308 rows/s
+Batch   830 |    830,000 / 1,000,000 | 83.0% | 308 rows/s
+Batch   831 |    831,000 / 1,000,000 | 83.1% | 308 rows/s
+Batch   832 |    832,000 / 1,000,000 | 83.2% | 308 rows/s
+Batch   833 |    833,000 / 1,000,000 | 83.3% | 308 rows/s
+Batch   834 |    834,000 / 1,000,000 | 83.4% | 308 rows/s
+Batch   835 |    835,000 / 1,000,000 | 83.5% | 308 rows/s
+Batch   836 |    836,000 / 1,000,000 | 83.6% | 308 rows/s
+Batch   837 |    837,000 / 1,000,000 | 83.7% | 308 rows/s
+Batch   838 |    838,000 / 1,000,000 | 83.8% | 308 rows/s
+Batch   839 |    839,000 / 1,000,000 | 83.9% | 308 rows/s
+Batch   840 |    840,000 / 1,000,000 | 84.0% | 308 rows/s
+Verify batch 840
+Point lookup id: fd043927-6caa-4dc9-b727-3e4b43470a26
+Trace lookup trace_id: tr-f50c1f06247234890016d83d0a5685e3
+Free-text sample: audits were conducted and all
+
+Batch   841 |    841,000 / 1,000,000 | 84.1% | 308 rows/s
+Batch   842 |    842,000 / 1,000,000 | 84.2% | 308 rows/s
+Batch   843 |    843,000 / 1,000,000 | 84.3% | 308 rows/s
+Batch   844 |    844,000 / 1,000,000 | 84.4% | 308 rows/s
+Batch   845 |    845,000 / 1,000,000 | 84.5% | 308 rows/s
+Batch   846 |    846,000 / 1,000,000 | 84.6% | 308 rows/s
+Batch   847 |    847,000 / 1,000,000 | 84.7% | 308 rows/s
+Batch   848 |    848,000 / 1,000,000 | 84.8% | 308 rows/s
+Batch   849 |    849,000 / 1,000,000 | 84.9% | 308 rows/s
+Batch   850 |    850,000 / 1,000,000 | 85.0% | 308 rows/s
+Batch   851 |    851,000 / 1,000,000 | 85.1% | 308 rows/s
+Batch   852 |    852,000 / 1,000,000 | 85.2% | 308 rows/s
+Batch   853 |    853,000 / 1,000,000 | 85.3% | 308 rows/s
+Batch   854 |    854,000 / 1,000,000 | 85.4% | 308 rows/s
+Batch   855 |    855,000 / 1,000,000 | 85.5% | 308 rows/s
+Batch   856 |    856,000 / 1,000,000 | 85.6% | 308 rows/s
+Batch   857 |    857,000 / 1,000,000 | 85.7% | 308 rows/s
+Batch   858 |    858,000 / 1,000,000 | 85.8% | 308 rows/s
+Batch   859 |    859,000 / 1,000,000 | 85.9% | 308 rows/s
+Batch   860 |    860,000 / 1,000,000 | 86.0% | 308 rows/s
+Verify batch 860
+Point lookup id: fdff83dd-8cbe-4718-bf51-06e81381917f
+Trace lookup trace_id: tr-73774221d8e67c371a13eadfb90ac768
+Free-text sample: 1eea053 b72168 6cd4fa 468d a554
+
+Batch   861 |    861,000 / 1,000,000 | 86.1% | 308 rows/s
+Batch   862 |    862,000 / 1,000,000 | 86.2% | 308 rows/s
+Batch   863 |    863,000 / 1,000,000 | 86.3% | 308 rows/s
+Batch   864 |    864,000 / 1,000,000 | 86.4% | 308 rows/s
+Batch   865 |    865,000 / 1,000,000 | 86.5% | 308 rows/s
+Batch   866 |    866,000 / 1,000,000 | 86.6% | 308 rows/s
+Batch   867 |    867,000 / 1,000,000 | 86.7% | 308 rows/s
+Batch   868 |    868,000 / 1,000,000 | 86.8% | 308 rows/s
+Batch   869 |    869,000 / 1,000,000 | 86.9% | 308 rows/s
+Batch   870 |    870,000 / 1,000,000 | 87.0% | 308 rows/s
+Batch   871 |    871,000 / 1,000,000 | 87.1% | 308 rows/s
+Batch   872 |    872,000 / 1,000,000 | 87.2% | 308 rows/s
+Batch   873 |    873,000 / 1,000,000 | 87.3% | 308 rows/s
+Batch   874 |    874,000 / 1,000,000 | 87.4% | 308 rows/s
+Batch   875 |    875,000 / 1,000,000 | 87.5% | 308 rows/s
+Batch   876 |    876,000 / 1,000,000 | 87.6% | 308 rows/s
+Batch   877 |    877,000 / 1,000,000 | 87.7% | 308 rows/s
+Batch   878 |    878,000 / 1,000,000 | 87.8% | 308 rows/s
+Batch   879 |    879,000 / 1,000,000 | 87.9% | 308 rows/s
+Batch   880 |    880,000 / 1,000,000 | 88.0% | 308 rows/s
+Verify batch 880
+Point lookup id: 58c058ad-2394-4e85-b343-9b64a38ba028
+Trace lookup trace_id: tr-c94b10d581f0327acddd2bf0ab95a9fa
+Free-text sample: to protect backend services from
+
+Batch   881 |    881,000 / 1,000,000 | 88.1% | 308 rows/s
+Batch   882 |    882,000 / 1,000,000 | 88.2% | 308 rows/s
+Batch   883 |    883,000 / 1,000,000 | 88.3% | 308 rows/s
+Batch   884 |    884,000 / 1,000,000 | 88.4% | 308 rows/s
+Batch   885 |    885,000 / 1,000,000 | 88.5% | 308 rows/s
+Batch   886 |    886,000 / 1,000,000 | 88.6% | 308 rows/s
+Batch   887 |    887,000 / 1,000,000 | 88.7% | 308 rows/s
+Batch   888 |    888,000 / 1,000,000 | 88.8% | 308 rows/s
+Batch   889 |    889,000 / 1,000,000 | 88.9% | 308 rows/s
+Batch   890 |    890,000 / 1,000,000 | 89.0% | 308 rows/s
+Batch   891 |    891,000 / 1,000,000 | 89.1% | 308 rows/s
+Batch   892 |    892,000 / 1,000,000 | 89.2% | 308 rows/s
+Batch   893 |    893,000 / 1,000,000 | 89.3% | 308 rows/s
+Batch   894 |    894,000 / 1,000,000 | 89.4% | 308 rows/s
+Batch   895 |    895,000 / 1,000,000 | 89.5% | 308 rows/s
+Batch   896 |    896,000 / 1,000,000 | 89.6% | 308 rows/s
+Batch   897 |    897,000 / 1,000,000 | 89.7% | 308 rows/s

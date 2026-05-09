@@ -1,0 +1,6 @@
+streamlit>=1.35
+pandas>=2.0
+plotly>=5.20
+clickhouse-connect>=0.7
+psycopg2-binary>=2.9
+influxdb-client>=1.42
