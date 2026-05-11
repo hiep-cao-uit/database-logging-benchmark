@@ -106,6 +106,8 @@ USER_AGENTS = [
     "Go-http-client/1.1",
 ]
 
+DATABASES = ["ClickHouse", "TimescaleDB", "InfluxDB"]
+
 
 @dataclass
 class Config:
@@ -736,7 +738,41 @@ def verify_batch(ch_client, pg_conn, influx_client, cfg, rows, batch_idx, insert
     return metrics, stats_rows, stats_query_rows, samples
 
 
-def render_results(insert_rows, storage_rows, lookup_rows, stats_rows, stats_query_rows):
+def find_metric_ms(rows, database):
+    for row in rows:
+        if row.get("database") == database:
+            value = row.get("ms")
+            return round(value, 2) if value is not None else None
+    return None
+
+
+def build_summary_row(batch_idx, insert_ms, sizes, metrics, stats_query_rows):
+    row = {"patch": batch_idx + 1}
+
+    for database in DATABASES:
+        row[f"insert_{database}_ms"] = round(insert_ms.get(database, 0), 2)
+
+    for database in DATABASES:
+        row[f"storage_{database}"] = sizes.get(database)
+
+    metric_groups = {
+        "point_lookup": metrics.get("point_lookup", []),
+        "trace_lookup": metrics.get("trace_lookup", []),
+        "free_text": metrics.get("free_text", []),
+    }
+    for metric_name, metric_rows in metric_groups.items():
+        for database in DATABASES:
+            row[f"{metric_name}_{database}_ms"] = find_metric_ms(metric_rows, database)
+
+    for metric_name in ["AppId", "LogLevel", "BusinessKey"]:
+        metric_rows = [r for r in stats_query_rows if r.get("metric") == metric_name]
+        for database in DATABASES:
+            row[f"{metric_name}_distribution_{database}_ms"] = find_metric_ms(metric_rows, database)
+
+    return row
+
+
+def render_results(insert_rows, storage_rows, lookup_rows, stats_rows, stats_query_rows, summary_rows):
     if insert_rows:
         df_insert = pd.DataFrame(insert_rows)
         batch_rows_values = df_insert["batch_rows"].dropna().unique().tolist()
@@ -864,6 +900,10 @@ def render_results(insert_rows, storage_rows, lookup_rows, stats_rows, stats_que
                         use_container_width=True,
                     )
 
+    if summary_rows:
+        st.subheader("Verify summary")
+        st.dataframe(pd.DataFrame(summary_rows), use_container_width=True, hide_index=True)
+
 
 def run_benchmark(cfg, logger, progress_slot, results_slot):
     ch_client = pg_conn = influx_client = None
@@ -872,6 +912,7 @@ def run_benchmark(cfg, logger, progress_slot, results_slot):
     lookup_rows = []
     stats_rows = []
     stats_query_rows = []
+    summary_rows = []
     total_verify_s = 0.0
     start_time_data = datetime.now(timezone.utc) - timedelta(days=60)
 
@@ -948,13 +989,26 @@ def run_benchmark(cfg, logger, progress_slot, results_slot):
                         lookup_rows.append(row)
                 stats_rows = batch_stats
                 stats_query_rows.extend(batch_stats_query)
+                summary_rows.append(
+                    build_summary_row(
+                        batch_idx,
+                        {
+                            "ClickHouse": ch_ms,
+                            "TimescaleDB": ts_ms,
+                            "InfluxDB": influx_ms,
+                        },
+                        sizes,
+                        metrics,
+                        batch_stats_query,
+                    )
+                )
                 total_verify_s += time.time() - verify_start
                 logger.write(f"Point lookup id: {samples['point_lookup_id']}")
                 logger.write(f"Trace lookup trace_id: {samples['trace_lookup_trace_id']}")
                 logger.write(f"Free-text sample: {samples['free_text']}")
                 logger.write()
                 with results_slot.container():
-                    render_results(insert_rows, storage_rows, lookup_rows, stats_rows, stats_query_rows)
+                    render_results(insert_rows, storage_rows, lookup_rows, stats_rows, stats_query_rows, summary_rows)
 
         logger.write(f"Hoàn thành. Đã insert {cfg.total_rows:,} dòng vào cả 3 DB")
     finally:
